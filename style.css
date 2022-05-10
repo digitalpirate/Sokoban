@@ -1,0 +1,36 @@
+#container{
+    width: 950px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 50px);
+}
+.Blank{
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(145, 145, 145);
+}
+.Wall {
+    background-color: darkslategray;
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(145, 145, 145);
+}
+.Box {
+    background-color: burlywood;
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(145, 145, 145);
+}
+.Player {
+    background-color: lightslategray;
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(145, 145, 145);
+}
+.G {
+    background-color: lightgreen;
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgb(145, 145, 145);
+}
