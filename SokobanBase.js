@@ -69,17 +69,3 @@ for(var i=0;i<tileMap01.height;i++){
       document.getElementById("container").appendChild(newDiv);
   }
 }
-
-function findPlayerCoords() {
-  const y = tileMap01.mapGrid.findIndex(row => row.includes(P))
-  const x = tileMap01.mapGrid[y].indexOf(P)
-  
-  return {
-    x,
-    y,
-    above: map[y - 1][x],
-    below: map[y + 1][x],
-    sideLeft: map[y][x - 1],
-    sideRight: map[y][x + 1],
-  }
-}
